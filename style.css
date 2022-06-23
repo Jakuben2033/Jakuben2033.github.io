@@ -1,0 +1,60 @@
+body    {
+    background-color: black;
+    background: url(./img/backgroundmain.png) no-repeat !important; 
+    background-size: cover;
+}
+h1 {
+    color: crimson;
+    text-align: center;
+    background-color: black;
+    border-color: red;
+    border-width: 4px;
+    border-style: dotted;
+    font-size: 2em;
+}
+th {
+    color: crimson;
+    text-align: center;
+    background-color: black;
+    border-color: red;
+    font-size: 1.5em;
+}
+p {
+    color: crimson;
+    text-align: center;
+    background-color: black;
+    border-color: red;
+    font-size: 1.5em;
+}
+/* třídní selektor */
+.centerimage {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.leftimage {
+    float: left;
+}
+.rightimage {
+    float: right;
+}
+#centre {
+    text-align: center;
+}
+.linkytext {
+    color: crimson;
+    text-align: center;
+}
+
+/* relativní velikost písma */
+.vetsiVelikostPisma {
+    font-size: 1.5em;
+}
+/* id - identifikátor */
+#modraBarva {
+    color: blue;
+}
+.ruzovoucka {
+    color:pink !important;
+}
